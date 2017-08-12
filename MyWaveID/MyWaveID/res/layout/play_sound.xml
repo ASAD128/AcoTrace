@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+             android:textColor="#FFE4A4"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="Play &amp; Record Sound"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnrecordsoundui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="38dp"
+        android:layout_marginLeft="17dp"
+        android:text="Record Sound"
+        android:textColor="#FFE4A4"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnsubmitserverui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnrecordsoundui"
+        android:layout_alignBottom="@+id/btnrecordsoundui"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:text="Submit To Server"
+        android:textColor="#FFE4A4"
+        android:textStyle="italic" />
+
+</RelativeLayout>

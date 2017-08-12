@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/checkback"
+    android:stretchColumns="1,2"
+    
+    
+    
+     >
+ <TableRow 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="0dp">
+        
+      
+
+     <TextView
+        
+         
+         android:id="@+id/textView1"
+         android:background="@drawable/checklogo"
+         android:layout_width="70dp"
+         android:layout_height="90dp"
+         android:text=""
+         android:layout_span="1"
+          />
+     
+
+    </TableRow>
+    <TableRow 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp">
+
+     <TextView
+        
+         
+         android:id="@+id/textView2"
+         
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text=""
+         android:layout_span="3"
+         />
+
+    </TableRow>
+     
+    
+   
+    <TableRow 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+       android:gravity="center">
+ 
+        
+ 
+        <EditText
+            android:id="@+id/first_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:layout_span="2" 
+            android:hint="First Name"
+            android:textColorHint="#8fc4ef"
+            android:ems="10"
+            android:focusable="true"
+            
+            android:paddingTop="1dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#ffffff"
+            
+            android:gravity="center">
+            <requestFocus />
+            </EditText>
+
+        
+
+    </TableRow>
+ 
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center"
+        
+        >
+
+        <EditText
+            android:id="@+id/last_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            
+           
+            android:inputType="textCapWords"
+            android:padding="10dp" 
+            android:hint="Last Name"
+            android:gravity="center"
+            android:textColorHint="#8fc4ef"
+             android:textColor="#ffffff"
+             android:nextFocusDown="@+id/email"
+   >
+
+            
+        </EditText>
+
+    </TableRow>
+ 
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        
+        android:gravity="center">
+ 
+       
+ 
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_span="2" 
+            android:hint="Email"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColorHint="#8fc4ef"
+            android:textColor="#ffffff"
+            
+            
+            />
+    </TableRow>
+       <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+ 
+       
+ 
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_span="2" 
+            android:hint="Password"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColorHint="#8fc4ef"
+            android:textColor="#ffffff"
+            android:password="true"
+            />
+    </TableRow>
+       <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         
+        android:gravity="center">
+ 
+       
+ 
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_span="2" 
+            android:hint="Contact Number"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColorHint="#8fc4ef"
+            android:textColor="#ffffff"
+            android:phoneNumber="true"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         
+        android:gravity="center">
+ 
+       
+ 
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_span="2" 
+            android:hint="Address"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColorHint="#8fc4ef"
+            android:textColor="#ffffff"/>
+    </TableRow>
+ 
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center"
+        android:paddingTop="30dp"
+        >
+
+        <Button
+            android:id="@+id/bn_retrieve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonfinal"
+            android:onClick="retrieveSampleData"
+            android:text="Sign Up"
+            android:textColor="#FFFFFF" 
+            android:gravity="center"/>
+         
+    </TableRow>
+ 
+</TableLayout>

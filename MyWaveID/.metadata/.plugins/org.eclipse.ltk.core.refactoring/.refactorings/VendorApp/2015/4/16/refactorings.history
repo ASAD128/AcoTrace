@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.example.fyp&apos; to &apos;com.example.vendor&apos;&#x0D;&#x0A;- Original project: &apos;VendorApp&apos;&#x0D;&#x0A;- Original element: &apos;VendorApp/src/com.example.fyp&apos;&#x0D;&#x0A;- Renamed element: &apos;VendorApp/src/com.example.vendor&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings&#x0D;&#x0A;- Rename subpackages of the package" description="Rename package &apos;com.example.fyp&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.example.fyp" name="com.example.vendor" qualified="false" references="true" stamp="1429290423900" textual="false" version="1.0"/>
+</session>
